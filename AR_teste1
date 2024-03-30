@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>AR.js Example</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@jeromeetienne/ar.js@2.3.1/aframe/build/aframe-ar.js"></script>
+</head>
+<body style="margin: 0; overflow: hidden;">
+    <a-scene embedded arjs>
+        <a-entity
+            gltf-model="url(https://github.com/9791/AR_teste/blob/efacd2c879c46a166d8c850c9ee38e0e44a79101/TP3V2.stl)"
+            scale="0.1 0.1 0.1"
+            position="0 0 -5">
+        </a-entity>
+    </a-scene>
+</body>
+</html>
